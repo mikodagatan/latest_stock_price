@@ -13,7 +13,11 @@ module LatestStockPrice
         request['X-RapidAPI-Key'] = API_KEY
         request['X-RapidAPI-Host'] = 'latest-stock-price.p.rapidapi.com'
 
-        http.request(request)
+        response = http.request(request)
+
+        return response unless response.body.include?('Invalid API key')
+
+        raise StandardError, "Invalid API key for ENV['RAPID_API_LATEST_STOCK_PRICE_API_KEY']"
       end
     end
   end
