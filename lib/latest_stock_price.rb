@@ -2,6 +2,7 @@ require 'latest_stock_price/stock'
 require 'latest_stock_price/stock_mapper'
 require 'latest_stock_price/constants'
 require 'latest_stock_price/connect'
+require 'latest_stock_price/indice_validator'
 
 require 'uri'
 require 'net/http'

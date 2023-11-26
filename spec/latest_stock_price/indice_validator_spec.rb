@@ -1,5 +1,4 @@
 require 'spec_helper'
-require 'latest_stock_price/indice_validator'
 
 RSpec.describe LatestStockPrice::IndiceValidator do
   describe '.validate' do
