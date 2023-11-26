@@ -18,6 +18,8 @@ module LatestStockPrice
 
     # NOTE: price and prices have the same endpoint.
     def price_for_indices(indices)
+      IndiceValidator.validate(indices)
+
       path = "/price?Indices=#{URI.encode_www_form_component(indices)}"
 
       response = Connect.request(path)
