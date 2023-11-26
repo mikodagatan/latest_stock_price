@@ -16,7 +16,7 @@ http_interactions:
       Host:
       - latest-stock-price.p.rapidapi.com
       X-Rapidapi-Key:
-      - 651b77b79dmsh5fb87e8a16b1859p18d521jsn71dfa4fc05d7
+      - "<RAPIDAPI_KEY>"
       X-Rapidapi-Host:
       - latest-stock-price.p.rapidapi.com
   response:
@@ -25,7 +25,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 26 Nov 2023 02:33:03 GMT
+      - Sun, 26 Nov 2023 04:30:51 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -41,7 +41,7 @@ http_interactions:
       X-Xgen-Up-Proto:
       - HTTP/2
       X-Appservices-Request-Id:
-      - 6562ae5ef32a2b620b31ea58
+      - 6562c9fb724af2befa85857e
       X-Envoy-Max-Retries:
       - '0'
       Vary:
@@ -49,9 +49,9 @@ http_interactions:
       X-Ratelimit-Rapid-Free-Plans-Hard-Limit-Limit:
       - '500000'
       X-Ratelimit-Rapid-Free-Plans-Hard-Limit-Remaining:
-      - '499955'
+      - '499951'
       X-Ratelimit-Rapid-Free-Plans-Hard-Limit-Reset:
-      - '2438548'
+      - '2431480'
       Server:
       - RapidAPI-1.2.8
       X-Rapidapi-Version:
@@ -112,5 +112,5 @@ http_interactions:
         15:59:49","yearHigh":1336,"yearLow":1011.5,"perChange365d":20.45,"perChange30d":7.47},{"symbol":"APOLLOHOSP","identifier":"APOLLOHOSPEQN","open":5493,"dayHigh":5493,"dayLow":5395,"lastPrice":5408.7,"previousClose":5493.95,"change":-85.25,"pChange":-1.55,"totalTradedVolume":270183,"totalTradedValue":1467147726.6,"lastUpdateTime":"24-Nov-2023
         15:58:28","yearHigh":5595,"yearLow":4123,"perChange365d":19.3,"perChange30d":10.55},{"symbol":"WIPRO","identifier":"WIPROEQN","open":402.5,"dayHigh":403.5,"dayLow":395.55,"lastPrice":396,"previousClose":402.5,"change":-6.5,"pChange":-1.61,"totalTradedVolume":3125283,"totalTradedValue":1244268920.79,"lastUpdateTime":"24-Nov-2023
         15:59:33","yearHigh":443.75,"yearLow":352,"perChange365d":3.54,"perChange30d":5.05}]'
-  recorded_at: Sun, 26 Nov 2023 02:33:02 GMT
+  recorded_at: Sun, 26 Nov 2023 04:30:51 GMT
 recorded_with: VCR 6.2.0

@@ -16,7 +16,7 @@ http_interactions:
       Host:
       - latest-stock-price.p.rapidapi.com
       X-Rapidapi-Key:
-      - 651b77b79dmsh5fb87e8a16b1859p18d521jsn71dfa4fc05d7
+      - "<RAPIDAPI_KEY>"
       X-Rapidapi-Host:
       - latest-stock-price.p.rapidapi.com
   response:
@@ -25,7 +25,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 26 Nov 2023 02:30:20 GMT
+      - Sun, 26 Nov 2023 04:30:51 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -41,7 +41,7 @@ http_interactions:
       X-Xgen-Up-Proto:
       - HTTP/2
       X-Appservices-Request-Id:
-      - 6562adbb3992fd698a96b443
+      - 6562c9facb4e24b3a5a005b1
       X-Envoy-Max-Retries:
       - '0'
       Vary:
@@ -49,9 +49,9 @@ http_interactions:
       X-Ratelimit-Rapid-Free-Plans-Hard-Limit-Limit:
       - '500000'
       X-Ratelimit-Rapid-Free-Plans-Hard-Limit-Remaining:
-      - '499956'
+      - '499952'
       X-Ratelimit-Rapid-Free-Plans-Hard-Limit-Reset:
-      - '2438711'
+      - '2431480'
       Server:
       - RapidAPI-1.2.8
       X-Rapidapi-Version:
@@ -925,5 +925,5 @@ http_interactions:
         16:00:00","perChange365d":21.16,"perChange30d":5.61},{"symbol":"NIFTY100 ESG","identifier":"NIFTY100
         ESG","open":3809.75,"dayHigh":3813.9,"dayLow":3793.95,"lastPrice":3796.6,"previousClose":3806.6,"change":-10,"pChange":-0.26,"yearHigh":0,"yearLow":0,"totalTradedVolume":270744623,"totalTradedValue":181230708303.8,"lastUpdateTime":"24-Nov-2023
         16:00:00","perChange365d":9.35,"perChange30d":3.8}]'
-  recorded_at: Sun, 26 Nov 2023 02:30:20 GMT
+  recorded_at: Sun, 26 Nov 2023 04:30:51 GMT
 recorded_with: VCR 6.2.0

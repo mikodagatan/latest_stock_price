@@ -1,5 +1,21 @@
 # Latest Stock Price Gem
 
+### Installation
+
+Add to Gemfile
+
+```
+gem 'latest_stock_price', git: 'https://github.com/mikodagatan/latest_stock_price.git'
+```
+
+Get api key from `https://rapidapi.com/suneetk92/api/latest-stock-price`
+
+Add to your .env file.
+
+```
+RAPID_API_LATEST_STOCK_PRICE_API_KEY=<sample_key>
+```
+
 ### Usage
 
 You can get the latest stock price data by doing these commands

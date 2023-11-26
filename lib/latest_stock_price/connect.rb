@@ -2,7 +2,7 @@ module LatestStockPrice
   class Connect
     class << self
       API_BASE_URL = 'https://latest-stock-price.p.rapidapi.com'.freeze
-      API_KEY = '651b77b79dmsh5fb87e8a16b1859p18d521jsn71dfa4fc05d7'.freeze
+      API_KEY = ENV['RAPID_API_LATEST_STOCK_PRICE_API_KEY'].freeze
 
       def request(path)
         url = URI("#{API_BASE_URL}#{path}")
